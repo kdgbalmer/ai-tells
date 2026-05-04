@@ -18,8 +18,11 @@ The catalogue is compressed from Wikipedia's "Signs of AI writing" page plus the
 
 ### Option 2: Claude Code / Skills
 
-1. Drop the `ai-tells/` folder into your `~/.claude/skills/` directory (or wherever your skills live).
-2. The skill will auto-trigger on relevant prompts.
+1. Create a folder called `ai-tells` inside your `~/.claude/skills/` directory.
+2. Download `SKILL.md` from this repo and place it inside that folder.
+3. The skill will auto-trigger on relevant prompts.
+
+Or just download `ai-tells.skill` from the [latest release](https://github.com/kdgbalmer/ai-tells/releases) and double-click to install.
 
 ### Option 3: System prompt
 
